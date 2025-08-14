@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import marketLogo from 'figma:asset/9299aa130684465ade3e3f6aea35299bfc959d7b.png';
+const marketLogo = 'https://placehold.co/128x128?text=Logo';
 
 interface HeaderProps {
   activeSection: string;

@@ -47,7 +47,7 @@ export default function App() {
     localStorage.removeItem('amherst_market_admin_auth');
     setActiveSection('home');
     // Navigate away from admin URL
-    window.history.pushState({}, '', '/');
+    window.history.pushState({}, '', '/amherst-artisan-website/');
     setIsAdminMode(false);
   };
 

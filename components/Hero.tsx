@@ -1,5 +1,5 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import marketLogo from 'figma:asset/9299aa130684465ade3e3f6aea35299bfc959d7b.png';
+const marketLogo = 'https://placehold.co/128x128?text=Logo';
 
 interface HeroProps {
   onNavigate?: (section: string) => void;
