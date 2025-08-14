@@ -1,0 +1,73 @@
+# Node/TypeScript project ignores
+node_modules/
+.pnpm-store/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.cache/
+.esbuild/
+.turbo/
+.rpt2_cache/
+parcel-cache/
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Storybook
+storybook-static/
+node_modules/.cache/storybook/
+
+# Vite
+.vite/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Misc
+*.pid
+*.seed
+*.tgz
+
+# Framework/platform
+.netlify/
+.vercel/
+
+# Supabase local artifacts
+supabase/.temp/
+supabase/.output/
+
+# Parcel/Cache temp
+.tmp/
+
+# Generated assets
+assets/generated/
